@@ -1,0 +1,22 @@
+{
+  "name": "Monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev --parallel",
+    "build": "turbo build --parallel"
+  },
+  "workspaces": [
+    "app/*",
+    "packages/*"
+  ],
+  "keywords": [],
+  "author": "Eduardo Mendes",
+  "license": "ISC",
+  "dependencies": {
+    "react": "18.2.0",
+    "turbo": "1.10.6"
+  }
+}
